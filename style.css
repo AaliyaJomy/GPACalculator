@@ -1,0 +1,60 @@
+/* Body styling */
+
+body {
+  /* Set background image */
+  background-image: url("backgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Box styling */
+
+.box {
+  margin: 60px;
+  background-color: #000000;
+  color: #ffffff;
+  opacity: 0.9;
+  padding: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+}
+
+
+/* Class to show element */
+.show {
+  display: block;
+}
+
+#logo{
+  color:rgb(255, 255, 255);
+  font-family:'Bauhaus 93'
+}
+
+        
+.navbar-brand {
+  font-size: 1.5rem;
+}
+.left-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-sidebar li {
+  margin-bottom: 10px;
+}
+
+.left-sidebar a {
+  text-decoration: none;
+  color: blue; /* Set link color to blue */
+}
+
+.left-sidebar a:hover {
+  color: #555;
+}
+
+h2 {
+  margin-top: 0; /* Remove default margin for headings */
+}
